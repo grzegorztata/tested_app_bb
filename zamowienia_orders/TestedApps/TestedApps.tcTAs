@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{53A73008-BBD7-4FB6-8A1B-8D196ECE63D0}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{12322DEE-3149-467F-B9B8-7D7293832929}">
+			<config nodeName="Zamowienia_orders" autorunOnRecording="False" enabled="False" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="BitBar">
+					<param name="BitBar" parameters="" workFolder="" application="C:\Users\grzegorz.tata\Desktop\aplikacje\Zamowienia.orders.apk" upload="True" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

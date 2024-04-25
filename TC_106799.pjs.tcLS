@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{1cce6768-6b9f-4d7b-b019-9c1a5ed3b7f5}">
+				<Prp name="relpath" type="S" value="zamowienia_orders\zamowienia_orders.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{1CCE6768-6B9F-4D7B-B019-9C1A5ED3B7F5}"/>
+			</Node>
+			<Node name="{ad1883c2-e5e6-42db-80fa-5fb3ec1a057d}">
+				<Prp name="relpath" type="S" value="zamowienia_dot\zamowienia_dot.mds.tcLS"/>
+			</Node>
+			<Node name="{e26bf86b-40f0-449c-b10c-0b57f71cffd4}">
+				<Prp name="relpath" type="S" value="bit_bar\bit_bar.mds.tcLS"/>
+			</Node>
+			<Node name="{fcbcd573-2812-4ca4-8945-6ee157c72f45}">
+				<Prp name="relpath" type="S" value="bb_testApp\bb_testApp.mds.tcLS"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{26D17A8B-4CF1-441C-BA17-13F7818F342D}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

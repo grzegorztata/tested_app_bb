@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{AD70AEBF-7C12-4978-BCA1-C76E201518EE}">
+	<children>
+		<child name="zamowienia_orders" key="{1CCE6768-6B9F-4D7B-B019-9C1A5ED3B7F5}" path="zamowienia_orders\zamowienia_orders.mds" />
+	</children>
+	<testItems key="{5EFF7CEA-5236-4F48-B92D-3FDECE6D96BE}">
+		<children>
+			<testItem key="{1CCE6768-6B9F-4D7B-B019-9C1A5ED3B7F5}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{D4431C5B-0D02-4A60-B403-5463625AFA2E}" />
+	<analysis key="{5785F26F-94F4-4770-96A7-A58B65F0FC1D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

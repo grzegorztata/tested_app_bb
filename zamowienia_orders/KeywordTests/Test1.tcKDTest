@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{4C80F42D-7EBC-4D08-BF60-4B4BE46EDA59}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{0CAB7DC6-68EA-472F-AAFD-F1EA1701087E}">
+				<Data>
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="HubUrl" DefVarType="5" VarType="8" ValueType="6" ValueValue="https://appium-us.bitbar.com/wd/hub/" />
+						<Parameter Name="Capabilities" DefVarType="5" VarType="8" ValueType="6" ValueValue="{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar_target&quot;:&quot;android&quot;,&quot;bitbar_findDevice&quot;:false,&quot;bitbar_device&quot;:&quot;Samsung Galaxy S22 Ultra SM-S908U1 -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S22 Ultra SM-S908U1 -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar_app&quot;:&quot;225698305&quot;}" />
+						<Parameter Name="ConnectTimeoutSec" DefVarType="12" VarType="3" ValueType="1" ValueValue="600" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.Device.processSmartbearExampleOrders.buttonNew" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="Text" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="New" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{92200860-1125-4F34-A1AC-223AD187726B}" />
+</Root>

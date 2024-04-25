@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Mobile" Key="{37E5341F-A439-4AB2-88DE-A3CF56332EDE}">
+				<TypeInfo Item0="{FE5845CC-47AD-40F2-ADF6-6641436CF6DA}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Mobile" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="Device" Key="{8D040B0E-FDB9-42DF-BAB2-870AABA8ECB4}">
+						<TypeInfo Item0="{088FB559-2EF4-4204-A6FB-F4E64FA01FD4}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Device" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="processSmartbearExampleOrders" Key="{F5E98BDF-490D-49B2-90A1-16A76D6F6AF2}">
+								<TypeInfo Item0="{91C921CD-1A82-435E-8FF5-6A33EDC3DD34}" />
+								<Properties>
+									<Property Name="ProcessName">
+										<Value Value="smartbear.example.orders" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="buttonNew" Key="{2A65B030-D21C-4063-90AD-A43B9AF0C123}">
+										<Image FileName="-2128816057" Left="45" Top="255" Right="365" Bottom="391" />
+										<TypeInfo Item0="{A967A794-9BCD-4B3F-A9FE-96E2F9CD78DD}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/newButton&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@text=&quot;New&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//*[@resource-id=&quot;smartbear.example.orders:id/buttons_layout&quot;]/android.widget.Button[1]" />
+											</Selector>
+											<Selector>
+												<Value Value="//android.widget.LinearLayout/android.widget.Button[1]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="Device" Owner="{8D040B0E-FDB9-42DF-BAB2-870AABA8ECB4}">
+			<Child Name="processSmartbearExampleOrders" Owner="{F5E98BDF-490D-49B2-90A1-16A76D6F6AF2}">
+				<Child Name="buttonNew" Owner="{2A65B030-D21C-4063-90AD-A43B9AF0C123}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
